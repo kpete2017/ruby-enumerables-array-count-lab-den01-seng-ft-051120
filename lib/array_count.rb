@@ -9,6 +9,7 @@ def count_empty_strings(array)
   array.count do |element|
     if element == ""
       count += 1
+    end
   end
   count
 end

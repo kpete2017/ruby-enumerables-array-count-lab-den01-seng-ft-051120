@@ -4,10 +4,12 @@ def count_strings(array)
   end
 end
 
-def count_empty_strings(array)
+def count_empty_strings
   count = 0
-  if array.any? ""
-    count += 1
+  array.count do |element|
+    if array.any? ""
+      count += 1
+    end
   end
   count
 end

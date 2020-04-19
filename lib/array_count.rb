@@ -6,5 +6,4 @@ end
 
 def count_empty_strings(array)
   array.any? ""
-  end
 end

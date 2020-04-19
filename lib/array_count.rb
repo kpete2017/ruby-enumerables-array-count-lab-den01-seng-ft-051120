@@ -11,4 +11,5 @@ def count_empty_strings
       count += 1
     end
   end
+   count
 end
